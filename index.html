@@ -1,0 +1,182 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<title>Trivia</title> 
+
+
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="assets/javascript/app2.js"></script>
+</head> 
+
+<body> 
+<div id = "container">
+
+<div id="startExplanation">  
+
+<h1>NBA Signature Shoe Trivia!</h1>
+
+Can you match the signature shoe with the right NBA superstar?
+<br> 
+<br>
+<section class="border">
+<button id ="startButton">Start</button> 
+</section>
+</div> 
+<div id = "quiz"> 
+
+<h1>NBA Signature Shoe Trivia</h1>
+
+<div id = "timer"> 
+Time Remaining: <span id ="countdown">90</span>
+</div> 
+
+<div id ="questions"> 
+<form id = "answers" name = "answers"> 
+
+<div id="imgdiv"><img id = "TriviaImg" src="assets/images/tmac2.png" alt="q1" title="q1"></div>
+<form class = "q">
+<span>
+<input name="test" type = "radio" id="q1" value ="wrong">Allen Iverson
+</span>
+<span>
+<input name="test" type = "radio" id="q1" value = "correct">Tracy McGrady
+</span> 
+<span>
+<input name="test" type = "radio" id="q1" value ="wrong">Shaquille O'Neal
+</span>
+<span>
+<input name="test" type = "radio" id="q1" value ="wrong">Grant Hill
+</span>
+<br> 
+</form>
+
+<div id="imgdiv"><img id = "TriviaImg" src="assets/images/kg.png" alt="q2" title="q2"></div>
+<form class = "q">
+<span>
+<input name="test" type = "radio" id="q2" value ="wrong">Chauncey Billups
+</span> 
+<span>
+<input name="test" type = "radio" id="q2" value ="wrong">Gary Payton
+</span>
+<span><input name="test" type = "radio" id="q2" value ="wrong">Dwyane Wade
+</span>
+<span><input name="test" type = "radio" id="q2" value="correct">Kevin Garnett
+</span>
+<br> 
+</form> 
+
+<div id="imgdiv"><img id = "TriviaImg" src="assets/images/lb.png" alt="q3" title="q3"></div>
+<form class = "q">
+<span>
+<input name="test" type = "radio" id="q3" value ="wrong">Magic Johnson
+</span> 
+<span>
+<input name="test" type = "radio" id="q3" value="correct">Larry Bird
+</span>
+<span><input name="test" type = "radio" id="q3" value ="wrong">Kevin McHale
+</span>
+<span><input name="test" type = "radio" id="q3" value ="wrong">James Worthy
+</span>
+<br> 
+</form>
+
+<div id="imgdiv"><img id = "TriviaImg" src="assets/images/mj.png" alt="q4" title="q4"></div>
+<form class = "q">
+<span>
+<input name="test" type = "radio" id="q4" value ="wrong">Hakeem Olajuwon
+</span> 
+<span>
+<input name="test" type = "radio" id="q4" value="correct">Michael Jordan
+</span>
+<span><input name="test" type = "radio" id="q4" value ="wrong">Karl Malone
+</span>
+<span><input name="test" type = "radio" id="q4" value ="wrong">David Robinson
+</span>
+<br> 
+</form>
+
+<div id="imgdiv"><img id = "TriviaImg" src="assets/images/sc.png" alt="q5" title="q5"></div>
+<form class = "q">
+<span>
+<input name="test" type = "radio" id="q5"  value ="wrong">Kevin Durant
+</span> 
+<span>
+<input name="test" type = "radio" id="q5" value ="wrong">James Harden
+</span>
+<span><input name="test" type = "radio" id="q5" value="correct">Steph Curry
+</span>
+<span><input name="test" type = "radio" id="q5" value ="wrong">Russell Westbrook
+</span>
+<br> 
+</form>
+
+<div id="imgdiv"><img id = "TriviaImg" src="assets/images/shaq.png" alt="q6" title="q6"></div>
+<form class = "q">
+<span>
+<input name="test" type = "radio" id="q6" value="correct">Shaquille O'Neal
+</span> 
+<span>
+<input name="test" type = "radio" id="q6" value ="wrong">Tracy McGrady
+</span>
+<span><input name="test" type = "radio" id="q6" value ="wrong">John Stockton
+</span>
+<span><input name="test" type = "radio" id="q6" value ="wrong">Chris Mullin
+</span>
+<br> 
+</form>
+
+<div id="imgdiv"><img id = "TriviaImg" src="assets/images/ai.png" alt="q7" title="q7"></div>
+<form class = "q">
+<span>
+<input name="test" type = "radio" id="q7" value ="wrong">Steve Nash
+</span> 
+<span>
+<input name="test" type = "radio" id="q7" value="correct">Allen Iverson
+</span>
+<span><input name="test" type = "radio" id="q7" value ="wrong">Adam Morrison
+</span>
+<span><input name="test" type = "radio" id="q7" value ="wrong">Smush Parker
+</span>
+<br> 
+</form>
+
+<div id="imgdiv"><img id = "TriviaImg" src="assets/images/ph.png" alt="q8" title="q8"></div>
+<form class = "q">
+<span>
+<input name="test" type = "radio" id="q8" value ="wrong">Charles Barkley
+</span> 
+<span>
+<input name="test" type = "radio" id="q8" value ="wrong">Larry Johnson
+</span>
+<span><input name="test" type = "radio" id="q8" value="correct">Penny Hardaway
+</span>
+<span><input name="test" type = "radio" id="q8" value ="wrong">Shawn Kemp
+</span>
+<br>  
+</form>
+<section class="border">
+<button id ="doneButton">Done</button>
+</section>
+</form>
+</div> 
+</div>
+
+<div id ="afterSubmit">  
+<h1>NBA Signature Shoe Trivia!</h1>
+
+<div id="timeOut"></div>
+Correct Answers: <span id = "correctAnswers">0</span> 
+<br> 
+Wrong Answers: <span id = "wrongAnswers">0</span> 
+<br>
+Not Guessed: <span id = "notGuessed">8</span> 
+</div>
+
+</div> 
+
+</body>
+
+</html>

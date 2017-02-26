@@ -1,0 +1,150 @@
+body { 
+
+background-image: url("../images/players.png");
+
+ }
+
+@font-face {
+
+	font-family: NBA Bulls; src: url("NBA Bulls.ttf");
+} 
+
+@font-face {
+
+	font-family: DS-Digital; src: url("DS-DIGI.ttf");
+}
+div { 
+
+font-family: NBA Bulls;
+font-size: 20px;  
+
+
+ }
+#container { 
+
+text-align: center; 
+margin: 0 auto; 
+background-color: ; 
+width: 700px;
+
+ }
+
+h1 { 
+	font-family: NBA Bulls;
+	font-size: 55px; 
+	margin-bottom: 50px; 
+	padding-top: 50px;
+
+ }
+#startExplanation { 
+	background-color: white;
+	visibility: visible;
+	margin-top: 100px;
+	font-size: 30px; 
+	line-height: 1.4; 
+	padding: 25px;
+
+ }  
+
+ #startButton { 
+	
+	margin-top:50px;
+	margin-bottom: 50px; 
+	
+
+  } 
+
+  button {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 15px 45px;
+  font-size: 35px;
+  font-family: NBA Milwaukee Bucks 2015; src: url("NBAMilwaukeeBucks2015.otf");
+  font-weight: bold;
+  line-height: 1.4;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+button:focus {
+  outline: none
+} 
+
+section.border button {
+  color: #0033cc;
+  background: rgba(0,0,0,0);
+  border: solid 5px #ff0000;
+}
+section.border button:hover,
+section.border button.hover {
+  border-color: #cc0000;
+  color: #002db3;
+}
+section.border button:active,
+section.border button.active {
+  border-color: #990000;
+  color: #002080;
+} 
+
+ #quiz { 
+
+	visibility: hidden;
+
+  } 
+
+  #timer { 
+	
+	font-size: 40px; 
+	font-family: DS-Digital;
+	color: red; 
+
+
+   }
+
+#TriviaImg { 
+	
+	margin-top: 30px;
+
+ } 
+
+ .q { 
+	
+	margin-top: 30px; 
+	margin-bottom: 30px;
+
+  }
+
+#doneButton { 
+
+	margin-top: 30px;
+
+
+ }
+#afterSubmit { 
+	
+	visibility: hidden; 
+	background-color: white;
+	line-height: 2; 
+	padding-bottom: 75px;
+
+ }  
+
+ #timeOut { 
+
+	line-height: 2;
+
+  } 
+
+  #correctAnswers { 
+
+	color: green;
+
+   } 
+
+  #wrongAnswers { 
+	
+	color: red;
+
+   }
+
